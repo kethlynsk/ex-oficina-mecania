@@ -12,6 +12,7 @@ const maintenanceSchema = new db.Schema({
         required: true
     },
     services: [
+        
         {
             name: {
                 type: String,

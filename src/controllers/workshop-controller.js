@@ -9,6 +9,7 @@ export const store = async (req, res) => {
     }
 };
 
+
 export const index = async (req, res) => {
     try {
         const workshops = await Workshop.find().exec();

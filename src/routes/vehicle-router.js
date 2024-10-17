@@ -4,7 +4,7 @@ import {
     index,
     update,
     destroy
-} from '../controllers/vehicle-controller.js';
+} from '../controllers/vehicle-controller.js'
 
 const router = Router();
 

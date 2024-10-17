@@ -11,6 +11,7 @@ const workshopSchema = new db.Schema({
     },
     specialties: [
         {
+            
             type: String,
             required: true
         }

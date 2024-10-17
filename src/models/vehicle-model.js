@@ -8,6 +8,7 @@ const vehicleSchema = new db.Schema({
     model: {
         type: String,
         required: true
+        
     },
     year: {
         type: Number,

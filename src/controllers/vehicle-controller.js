@@ -10,6 +10,7 @@ export const store = async (req, res) => {
     }
 };
 
+
 export const index = async (req, res) => {
     
 

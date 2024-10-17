@@ -8,6 +8,7 @@ import {
 
 const router = Router();
 
+
 router.post('/', store);
 router.get('/', index);
 router.put('/:id', update);
